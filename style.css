@@ -1,7 +1,19 @@
+html {
+    background-color: ghostwhite;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: rgb(207, 74, 74);
+    border-radius: 10px;
+}
+
+.header > h2 {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
 }
 
 .calculator {
@@ -18,4 +30,9 @@
 
 .images-container>img {
     width: 5rem;
+}
+
+button {
+    border-radius: 10px;
+    background-color: bisque;
 }
